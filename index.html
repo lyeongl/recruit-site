@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LYEONG — Careers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+  <script type="module" src="/src/js/main.js"></script>
+</head>
+<body>
+
+<div class="progress"><div class="bar" id="progBar"></div></div>
+
+<!-- FIXED NAV -->
+<nav class="nav" aria-label="Primary">
+  <div class="logo">LYEONG</div>
+  <div class="links">
+    <a data-to="#benefits">혜택</a>
+    <a data-to="#stories">인터뷰</a>
+    <a data-to="#act2" data-frame="3">FAQ</a>
+  </div>
+  <a class="cta" data-to="#positions">
+    지원하기
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+  </a>
+</nav>
+
+<!-- ACT 1: Hero → Philosophy → Bridge → Values -->
+<section class="act" id="act1">
+  <div class="act-stage">
+    <div class="act-bg pink-bg" id="act1PinkBg"></div>
+    <div class="act-bg" id="act1WhiteBg" style="background:#fff"></div>
+
+    <!-- Panel 1 — Hero -->
+    <div class="panel" id="p1">
+      <div class="inner hero-inner">
+        <div class="eyebrow">LYEONG · Careers 2026</div>
+        <h1 id="heroTitle">DEFAULT<br/>REWRITTEN</h1>
+        <div class="sub" id="heroSub">누군가 정해둔 '보통'을, 다시 씁니다.</div>
+        <div class="meta" id="heroMeta">
+          <span>Apply by 2026.05.31</span>
+          <span>Seoul · Remote</span>
+          <span>6 Teams</span>
+        </div>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>기본값을 다시 씁니다<span class="star">✦</span></span>
+          <span>Applications close 2026.05.31<span class="star">✦</span></span>
+          <span>72 Hours Response<span class="star">✦</span></span>
+          <span>Default Rewritten<span class="star">✦</span></span>
+          <span>기본값을 다시 씁니다<span class="star">✦</span></span>
+          <span>Applications close 2026.05.31<span class="star">✦</span></span>
+          <span>72 Hours Response<span class="star">✦</span></span>
+          <span>Default Rewritten<span class="star">✦</span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 2 — Philosophy -->
+    <div class="panel" id="p2">
+      <div class="blobs">
+        <div class="blob a"></div><div class="blob b"></div><div class="blob c"></div>
+      </div>
+      <div class="inner copy-inner">
+        <p class="tag" id="p2tag">WHY WE REWRITE</p>
+        <p class="pp">대부분의 '기본값'은 누군가가 오래전에 정해둔 것입니다.</p>
+        <p class="pp">채용 절차의 속도, 연봉을 정하는 공식, 일하는 방식의 기준 — 의심 없이 이어진 관성이 지금의 기본값을 만들었습니다.</p>
+        <p class="pp">우리는 이 기본값을 다시 씁니다. 더 좋은 답이 있다고 믿는 사람들의 질문에서, 새로운 기본값이 시작됩니다.</p>
+      </div>
+    </div>
+
+    <!-- Panel 3 — Bridge -->
+    <div class="panel panel-dark" id="p3">
+      <div class="inner bridge-inner">
+        <div class="p1line">정해진 <em>답</em>을 따르기보다, 더 나은 답을 만드는 팀.</div>
+        <div class="p2line">이 기본값을 함께 다시 쓸 <em>동료</em>를 찾습니다.</div>
+      </div>
+    </div>
+
+    <!-- Panel 4 — Values -->
+    <div class="panel panel-dark" id="p4">
+      <div class="counter values-counter"><b id="valIdx">01</b><span>/</span><span>05</span></div>
+      <div class="inner rail-inner">
+        <div class="rail">
+          <div class="side left">기본값을<br/>다시 쓸</div>
+          <div class="center">
+            <div class="vitem">답보다 질문을<br/>먼저 던지는</div>
+            <div class="vitem">작게 시작해<br/>끝까지 다듬는</div>
+            <div class="vitem">결과로 말하는<br/>책임감을 가진</div>
+            <div class="vitem">불편한 피드백도<br/>환영하는</div>
+            <div class="vitem">경계 없이<br/>서로 돕는</div>
+          </div>
+          <div class="side right">동료를<br/>찾습니다.</div>
+        </div>
+      </div>
+      <div class="track"><div class="fill" id="valFill"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5 BENEFITS -->
+<section class="scene benefits" id="benefits">
+  <div class="stage">
+    <div class="counter"><b id="benIdx">01</b> / 03</div>
+    <div class="grid">
+      <div class="label-stack">
+        <div class="label"><span>BEYOND</span><b>TIME LIMITS</b></div>
+        <div class="label"><span>BEYOND</span><b>PAY NORMS</b></div>
+        <div class="label"><span>BEYOND</span><b>GROWTH BARRIERS</b></div>
+      </div>
+      <div class="card-stack">
+        <div class="card">
+          <div class="num">01 / 03</div>
+          <div class="hook">100시간 안에,
+결과를 드립니다.</div>
+          <div class="foot">
+            <div>서류 48h · 인터뷰 24h · 결과 안내 보장</div>
+            <div class="big">19:00 – 21:00 인터뷰</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="num">02 / 03</div>
+          <div class="hook">모든 최종 합격자,
+연봉 20% 인상.</div>
+          <div class="foot">
+            <div>현재 연봉 대비 +20%, 무조건.</div>
+            <div class="big">No exceptions.</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="num">03 / 03</div>
+          <div class="hook">성장을 위한
+최고 수준의 지원.</div>
+          <div class="foot">
+            <div>학습 · 도구 · 컨퍼런스 · 멘토십 — 전부.</div>
+            <div class="big">Unlimited support</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 LEADERSHIP -->
+<section class="scene leadership" id="leadership">
+  <div class="stage">
+    <div class="inner">
+      <div class="eyebrow">LYEONG STANDARD</div>
+      <h2>리더십이 말하는
+새로운 기준.</h2>
+      <div class="vid" id="ldVid">
+        <div class="play"></div>
+        <div class="caption">ep.01<b>욕심 있는 사람 / LYEONG STANDARD</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7 STORIES -->
+<section class="scene stories" id="stories">
+  <div class="stage">
+    <div class="inner">
+      <h2>먼저 도전하고 있는
+구성원의 이야기.</h2>
+      <div class="grid">
+        <article class="story"><div class="thumb t1"></div><div class="body"><div class="kicker">PEOPLE · 01</div>AI 시대에, 우리가 오히려 더 많은 동료를 찾는 이유</div></article>
+        <article class="story"><div class="thumb t2"></div><div class="body"><div class="kicker">CRAFT · 02</div>적당함으로는 풀 수 없는 문제를 풉니다</div></article>
+        <article class="story"><div class="thumb t3"></div><div class="body"><div class="kicker">TOOLING · 03</div>AI와 함께 일하는 방식을 다시 씁니다</div></article>
+        <article class="story"><div class="thumb t4"></div><div class="body"><div class="kicker">JOURNEY · 04</div>AI로 고객의 여정을 다시 설계합니다</div></article>
+        <article class="story"><div class="thumb t5"></div><div class="body"><div class="kicker">COMMERCE · 05</div>크리에이터 커머스의 새로운 기준을 만듭니다</div></article>
+        <article class="story"><div class="thumb t6"></div><div class="body"><div class="kicker">PRODUCT · 06</div>정답을 구현하기보다 문제를 정의하는 사람들</div></article>
+        <article class="story"><div class="thumb t7"></div><div class="body"><div class="kicker">DESIGN · 07</div>선택의 방향을 만드는 디자인</div></article>
+        <article class="story"><div class="thumb t8"></div><div class="body"><div class="kicker">WEB · 08</div>웹 경험에서 시작되는 제품 경쟁력</div></article>
+        <article class="story"><div class="thumb t9"></div><div class="body"><div class="kicker">INSIGHT · 09</div>숫자 너머의 고객 경험을 분석합니다</div></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 8 POSITIONS -->
+<section class="scene positions" id="positions">
+  <div class="stage">
+    <div class="inner">
+      <div class="head">
+        <h2>현재 채용 중인
+포지션.</h2>
+        <div class="badge"><span class="dot"></span>~ 2026. 05. 31</div>
+      </div>
+      <div class="list">
+        <a class="row" href="#"><div class="idx">01</div><div class="title">Software Engineer</div><div class="team">Platform · Seoul / Remote</div><div class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></a>
+        <a class="row" href="#"><div class="idx">02</div><div class="title">Product Designer</div><div class="team">Design · Seoul</div><div class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></a>
+        <a class="row" href="#"><div class="idx">03</div><div class="title">Data Analyst</div><div class="team">Insight · Seoul / Remote</div><div class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></a>
+        <a class="row" href="#"><div class="idx">04</div><div class="title">Product Manager</div><div class="team">Commerce · Seoul</div><div class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></a>
+        <a class="row" href="#"><div class="idx">05</div><div class="title">Marketing</div><div class="team">Growth · Seoul</div><div class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACT 2: Top CTA → Hours → Final CTA → FAQ -->
+<section class="act" id="act2">
+  <div class="act-stage">
+    <div class="act-bg pink-bg" id="act2PinkBg"></div>
+
+    <!-- Panel A — Top CTA -->
+    <div class="panel" id="a1">
+      <div class="inner topcta-inner">
+        <h2 id="topctaH">충분함을 넘어 탁월함을 선택하는 팀.</h2>
+        <p id="topctaP">더 높은 기준의 도전을, 지금 시작하세요.</p>
+      </div>
+    </div>
+
+    <!-- Panel B — Hours -->
+    <div class="panel" id="a2">
+      <div class="inner hours-inner">
+        <div class="big"><span class="a" id="hA">100</span><span class="b" id="hB">시간</span><span class="dot" id="hDot">.</span></div>
+        <h3 id="hH">결정은 빠르게, 기준은 명확하게.</h3>
+        <p id="hP">서류 48시간, 인터뷰 24시간 —
+모든 지원자에게 결과를 안내합니다.</p>
+        <div class="chips" id="hChips">
+          <div class="chip">서류<b>48h</b></div>
+          <div class="chip">인터뷰<b>24h</b></div>
+          <div class="chip">결과 안내<b>28h</b></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel C — Final CTA -->
+    <div class="panel" id="a3">
+      <div class="inner final-inner">
+        <div class="eyebrow" id="fE">LYEONG STANDARD</div>
+        <h2 id="fH">충분함을 넘어 탁월함을 선택하는 팀.
+더 높은 기준에 도전하세요.</h2>
+        <a class="btn" id="fB" data-to="#positions">
+          지원하기
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Panel D — FAQ -->
+    <div class="panel" id="a4">
+      <div class="inner faq-inner">
+        <div class="head">
+          <h2 id="faqH">Frequently Asked
+Questions.</h2>
+          <div class="sub" id="faqS">자주 묻는 질문 · LYEONG Careers 2026</div>
+        </div>
+        <div class="list" id="faqList">
+          <details class="item">
+            <summary class="q">Q1. 채용 절차는 어떻게 진행되나요?<span class="plus">+</span></summary>
+            <div class="a">서류 검토 후 48시간 이내 결과를 안내드립니다. 인터뷰는 평일 저녁 19:00–21:00에 진행되며, 최종 결과까지 100시간 이내를 목표로 합니다. 모든 지원자에게 결과를 개별 안내합니다.</div>
+          </details>
+          <details class="item">
+            <summary class="q">Q2. 리모트 근무가 가능한가요?<span class="plus">+</span></summary>
+            <div class="a">직군과 팀에 따라 리모트·하이브리드 근무가 가능합니다. 저희는 출퇴근 시간보다 결과와 기여에 집중하는 문화를 지향합니다. 지원 포지션별 근무 형태는 채용 공고에서 확인하실 수 있습니다.</div>
+          </details>
+          <details class="item">
+            <summary class="q">Q3. 신입도 지원할 수 있나요?<span class="plus">+</span></summary>
+            <div class="a">연차보다 사고방식과 성장 가능성을 더 중요하게 봅니다. '경력이 없으니까'라는 이유만으로 지원을 망설이지 않으셔도 됩니다. 문제를 정의하고 끝까지 파고드는 태도를 가진 분이라면 언제든 환영합니다.</div>
+          </details>
+          <details class="item">
+            <summary class="q">Q4. 팀의 업무 문화는 어떤가요?<span class="plus">+</span></summary>
+            <div class="a">자율과 책임을 동시에 중시합니다. 불편한 피드백도 솔직하게 나누고, 실수를 숨기기보다 빠르게 공유하는 문화를 지향합니다. 경계 없이 서로 돕는 팀워크가 우리의 기본값입니다.</div>
+          </details>
+          <details class="item">
+            <summary class="q">Q5. 포트폴리오가 없어도 지원할 수 있나요?<span class="plus">+</span></summary>
+            <div class="a">완성된 결과물보다 문제를 어떻게 정의하고 접근했는지를 더 중요하게 봅니다. 포트폴리오 형식에 구애받지 마시고, 본인의 사고 과정이 담긴 어떤 형태든 함께 보내주세요.</div>
+          </details>
+        </div>
+        <div class="faq-foot">
+          <div class="mono">© 2026 LYEONG. All Rights Reserved.</div>
+          <div class="logo-inline">LYEONG</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

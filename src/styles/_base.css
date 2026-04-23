@@ -1,0 +1,72 @@
+* { box-sizing: border-box; margin: 0; padding: 0 }
+
+html, body {
+  background: #000;
+  color: #fff;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body { overflow-x: hidden; }
+a { color: inherit; text-decoration: none }
+button { font: inherit; border: none; background: none; cursor: pointer; color: inherit }
+
+.mono { font-family: "JetBrains Mono", ui-monospace, monospace; letter-spacing: .02em }
+.display { font-family: "Space Grotesk", "Pretendard Variable", sans-serif; font-weight: 700; letter-spacing: -.03em }
+.wrap { width: min(1200px, 92vw); margin: 0 auto }
+
+/* ── Stage scaffolding ── */
+.scene { position: relative; width: 100% }
+.stage {
+  position: relative; width: 100%; height: 100vh; overflow: hidden;
+  display: flex; align-items: center; justify-content: center;
+}
+.stage > .inner,
+.stage > .wrap,
+.stage > .grid,
+.stage > .rail,
+.stage > .copy,
+.stage > .split { max-height: 100vh; }
+
+.fit { transform-origin: center center; will-change: transform }
+
+/* ── Pink gradient background ── */
+.pink-bg {
+  background:
+    radial-gradient(120% 80% at 20% 10%, #FF7ADB 0%, transparent 55%),
+    radial-gradient(100% 90% at 85% 20%, #B91CFF 0%, transparent 55%),
+    radial-gradient(120% 120% at 50% 120%, #FF3DD8 0%, #8B00C9 60%, #4A0073 100%);
+  color: #fff;
+}
+
+/* ── ACT wrappers (multi-panel pinned) ── */
+.act { position: relative; width: 100% }
+.act-stage { position: relative; width: 100%; height: 100vh; overflow: hidden }
+.act-bg { position: absolute; inset: 0; pointer-events: none }
+#act1WhiteBg { clip-path: circle(0% at 50% 50%); will-change: clip-path }
+.act .panel {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; will-change: opacity, transform;
+}
+.act .panel.panel-dark { color: var(--ink) }
+.act .panel .inner { position: relative; z-index: 2; will-change: transform, opacity }
+
+/* ── Marquee ── */
+.marquee {
+  position: absolute; left: 0; right: 0; bottom: 0; overflow: hidden;
+  border-top: 1px solid rgba(255,255,255,.2);
+  border-bottom: 1px solid rgba(255,255,255,.2);
+  background: rgba(0,0,0,.12);
+}
+.marquee-track {
+  display: flex; white-space: nowrap;
+  animation: scroll 28s linear infinite;
+  padding: 18px 0;
+  font-family: "Space Grotesk", sans-serif; font-weight: 600;
+  font-size: 22px; letter-spacing: -.01em;
+}
+.marquee-track span { padding: 0 28px; display: inline-flex; align-items: center; gap: 28px }
+.marquee-track .star { font-size: 20px }
+
+@keyframes scroll { to { transform: translateX(-50%) } }
