@@ -4,7 +4,7 @@
 
 ## Preview
 
-<video src="assets/preview.mp4" controls width="100%"></video>
+<video src="https://github.com/lyeongl/recruit-site/releases/download/preview/preview.mp4" controls width="100%"></video>
 
 ## Reference
 
