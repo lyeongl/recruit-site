@@ -23,7 +23,7 @@ export function initBenefits() {
   ScrollTrigger.create({
     trigger: '#benefits',
     start: 'top top',
-    end: () => `+=${window.innerHeight * 3}`,
+    end: () => `+=${window.innerHeight * 4.5}`,  // 3 → 4.5
     pin: true,
     scrub: 0.6,
     animation: tl,

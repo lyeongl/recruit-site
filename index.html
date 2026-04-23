@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+  <link rel="stylesheet" href="/src/styles/main.css" />
   <script type="module" src="/src/js/main.js"></script>
 </head>
 <body>
@@ -16,13 +17,13 @@
 
 <!-- FIXED NAV -->
 <nav class="nav" aria-label="Primary">
-  <div class="logo">LYEONG</div>
+  <div class="logo" id="navLogo">LYEONG</div>
   <div class="links">
     <a data-to="#benefits">혜택</a>
-    <a data-to="#stories">인터뷰</a>
-    <a data-to="#act2" data-frame="3">FAQ</a>
+    <a data-to="#stories" data-frame="1.8">인터뷰</a>
+    <a data-to="#act2" data-frame="5.8">FAQ</a>
   </div>
-  <a class="cta" data-to="#positions">
+  <a class="cta" data-to="#positions" data-frame="1.5">
     지원하기
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
   </a>
@@ -235,7 +236,7 @@
         <div class="eyebrow" id="fE">LYEONG STANDARD</div>
         <h2 id="fH">충분함을 넘어 탁월함을 선택하는 팀.
 더 높은 기준에 도전하세요.</h2>
-        <a class="btn" id="fB" data-to="#positions">
+        <a class="btn" id="fB" data-to="#positions" data-frame="1.5">
           지원하기
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </a>

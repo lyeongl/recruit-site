@@ -3,7 +3,7 @@
   position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%);
   z-index: 9999; display: flex; align-items: center; gap: 6px;
   padding: 6px 6px 6px 20px;
-  background: rgba(11,11,14,.72);
+  background: rgba(11,11,14,.45);
   border: 1px solid rgba(255,255,255,.12);
   backdrop-filter: blur(18px) saturate(140%);
   -webkit-backdrop-filter: blur(18px) saturate(140%);
@@ -14,7 +14,7 @@
 
 .nav .logo {
   font-weight: 800; letter-spacing: -.02em; font-size: 14px;
-  display: flex; align-items: center; gap: 8px; color: #fff;
+  display: flex; align-items: center; gap: 8px; color: #fff; cursor: pointer;
 }
 .nav .logo::before {
   content: ""; width: 9px; height: 9px; border-radius: 50%;
