@@ -1,0 +1,439 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Flyeongl%2Frecruit-site
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=lyeongl%2Frecruit-site
+            - button "Appearance settings" [disabled] [ref=e58]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "lyeongl" [ref=e70] [cursor=pointer]:
+            - /url: /lyeongl
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "recruit-site" [ref=e73] [cursor=pointer]:
+              - /url: /lyeongl/recruit-site
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Flyeongl%2Frecruit-site
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 0" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Flyeongl%2Frecruit-site
+                - img [ref=e82]
+                - text: Fork
+                - generic "0" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Flyeongl%2Frecruit-site
+                - img [ref=e88]
+                - text: Star
+                - generic "0 users starred this repository" [ref=e90]: "0"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /lyeongl/recruit-site
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues" [ref=e99] [cursor=pointer]:
+              - /url: /lyeongl/recruit-site/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+          - listitem [ref=e104]:
+            - link "Pull requests" [ref=e105] [cursor=pointer]:
+              - /url: /lyeongl/recruit-site/pulls
+              - img [ref=e106]
+              - generic [ref=e108]: Pull requests
+          - listitem [ref=e109]:
+            - link "Actions" [ref=e110] [cursor=pointer]:
+              - /url: /lyeongl/recruit-site/actions
+              - img [ref=e111]
+              - generic [ref=e113]: Actions
+          - listitem [ref=e114]:
+            - link "Projects" [ref=e115] [cursor=pointer]:
+              - /url: /lyeongl/recruit-site/projects
+              - img [ref=e116]
+              - generic [ref=e118]: Projects
+          - listitem [ref=e119]:
+            - link "Security and quality" [ref=e120] [cursor=pointer]:
+              - /url: /lyeongl/recruit-site/security
+              - img [ref=e121]
+              - generic [ref=e123]: Security and quality
+          - listitem [ref=e124]:
+            - link "Insights" [ref=e125] [cursor=pointer]:
+              - /url: /lyeongl/recruit-site/pulse
+              - img [ref=e126]
+              - generic [ref=e128]: Insights
+    - generic [ref=e141]:
+      - heading "lyeongl/recruit-site" [level=1] [ref=e143]
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - button "main branch" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]:
+                  - generic [ref=e154]:
+                    - img [ref=e156]
+                    - generic [ref=e159]: main
+                  - generic:
+                    - img
+              - generic [ref=e160]:
+                - link "Branches" [ref=e161] [cursor=pointer]:
+                  - /url: /lyeongl/recruit-site/branches
+                  - generic [ref=e162]:
+                    - generic:
+                      - img
+                    - generic [ref=e163]: Branches
+                - link "Tags" [ref=e164] [cursor=pointer]:
+                  - /url: /lyeongl/recruit-site/tags
+                  - generic [ref=e165]:
+                    - generic:
+                      - img
+                    - generic [ref=e166]: Tags
+            - generic [ref=e167]:
+              - generic [ref=e171]:
+                - img [ref=e173]
+                - combobox "Go to file" [ref=e175]
+              - button "Code" [ref=e176] [cursor=pointer]:
+                - generic [ref=e177]:
+                  - generic:
+                    - img
+                  - generic [ref=e178]: Code
+                  - generic:
+                    - img
+          - generic [ref=e179]:
+            - generic [ref=e180]:
+              - heading "Folders and files" [level=2] [ref=e181]
+              - table "Folders and files" [ref=e182]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e183]:
+                  - row "Latest commit History 5 Commits" [ref=e184]:
+                    - cell "Latest commit History 5 Commits" [ref=e185]:
+                      - generic [ref=e186]:
+                        - heading "Latest commit" [level=2] [ref=e187]
+                        - generic [ref=e190]:
+                          - heading "History" [level=2] [ref=e191]
+                          - link "5 Commits" [ref=e192] [cursor=pointer]:
+                            - /url: /lyeongl/recruit-site/commits/main/
+                            - generic [ref=e193]:
+                              - generic:
+                                - img
+                              - generic [ref=e194]: 5 Commits
+                  - row "assets, (Directory)" [ref=e195]:
+                    - cell "assets, (Directory)" [ref=e196]:
+                      - generic [ref=e197]:
+                        - img [ref=e198]
+                        - link "assets, (Directory)" [ref=e203] [cursor=pointer]:
+                          - /url: /lyeongl/recruit-site/tree/main/assets
+                          - text: assets
+                    - cell [ref=e204]
+                    - cell [ref=e206]
+                  - row "src, (Directory)" [ref=e209]:
+                    - cell "src, (Directory)" [ref=e210]:
+                      - generic [ref=e211]:
+                        - img [ref=e212]
+                        - link "src, (Directory)" [ref=e217] [cursor=pointer]:
+                          - /url: /lyeongl/recruit-site/tree/main/src
+                          - text: src
+                    - cell [ref=e218]
+                    - cell [ref=e220]
+                  - row ".gitignore, (File)" [ref=e223]:
+                    - cell ".gitignore, (File)" [ref=e224]:
+                      - generic [ref=e225]:
+                        - img [ref=e226]
+                        - link ".gitignore, (File)" [ref=e231] [cursor=pointer]:
+                          - /url: /lyeongl/recruit-site/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell [ref=e232]
+                    - cell [ref=e234]
+                  - row "README.md, (File)" [ref=e237]:
+                    - cell "README.md, (File)" [ref=e238]:
+                      - generic [ref=e239]:
+                        - img [ref=e240]
+                        - link "README.md, (File)" [ref=e245] [cursor=pointer]:
+                          - /url: /lyeongl/recruit-site/blob/main/README.md
+                          - text: README.md
+                    - cell [ref=e246]
+                    - cell [ref=e248]
+                  - row "index.html, (File)" [ref=e251]:
+                    - cell "index.html, (File)" [ref=e252]:
+                      - generic [ref=e253]:
+                        - img [ref=e254]
+                        - link "index.html, (File)" [ref=e259] [cursor=pointer]:
+                          - /url: /lyeongl/recruit-site/blob/main/index.html
+                          - text: index.html
+                    - cell [ref=e260]
+                    - cell [ref=e262]
+                  - row "package-lock.json, (File)" [ref=e265]:
+                    - cell "package-lock.json, (File)" [ref=e266]:
+                      - generic [ref=e267]:
+                        - img [ref=e268]
+                        - link "package-lock.json, (File)" [ref=e273] [cursor=pointer]:
+                          - /url: /lyeongl/recruit-site/blob/main/package-lock.json
+                          - text: package-lock.json
+                    - cell [ref=e274]
+                    - cell [ref=e276]
+                  - row "package.json, (File)" [ref=e279]:
+                    - cell "package.json, (File)" [ref=e280]:
+                      - generic [ref=e281]:
+                        - img [ref=e282]
+                        - link "package.json, (File)" [ref=e287] [cursor=pointer]:
+                          - /url: /lyeongl/recruit-site/blob/main/package.json
+                          - text: package.json
+                    - cell [ref=e288]
+                    - cell [ref=e290]
+            - generic [ref=e294]:
+              - generic [ref=e295]:
+                - heading "Repository files navigation" [level=2] [ref=e296]
+                - navigation "Repository files" [ref=e297]:
+                  - list [ref=e298]:
+                    - listitem [ref=e299]:
+                      - link "README" [ref=e300] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e302]
+                        - generic [ref=e304]: README
+                - button "Outline" [ref=e305] [cursor=pointer]:
+                  - img [ref=e306]
+              - article [ref=e309]:
+                - generic [ref=e310]:
+                  - heading "LYEONG — Careers" [level=1] [ref=e311]
+                  - 'link "Permalink: LYEONG — Careers" [ref=e312] [cursor=pointer]':
+                    - /url: "#lyeong--careers"
+                    - img [ref=e313]
+                - paragraph [ref=e315]: 포트폴리오용 채용 페이지입니다.
+                - generic [ref=e316]:
+                  - heading "Preview" [level=2] [ref=e317]
+                  - 'link "Permalink: Preview" [ref=e318] [cursor=pointer]':
+                    - /url: "#preview"
+                    - img [ref=e319]
+                - paragraph
+                - generic [ref=e321]:
+                  - heading "Reference" [level=2] [ref=e322]
+                  - 'link "Permalink: Reference" [ref=e323] [cursor=pointer]':
+                    - /url: "#reference"
+                    - img [ref=e324]
+                - list [ref=e326]:
+                  - listitem [ref=e327]:
+                    - text: "Design inspiration:"
+                    - link "BEYOND Careers" [ref=e328] [cursor=pointer]:
+                      - /url: https://beyond.imweb.me/
+                - generic [ref=e329]:
+                  - heading "Stack" [level=2] [ref=e330]
+                  - 'link "Permalink: Stack" [ref=e331] [cursor=pointer]':
+                    - /url: "#stack"
+                    - img [ref=e332]
+                - list [ref=e334]:
+                  - listitem [ref=e335]:
+                    - link "Vite" [ref=e336] [cursor=pointer]:
+                      - /url: https://vitejs.dev/
+                    - text: — build tool
+                  - listitem [ref=e337]: Vanilla JS + CSS (no framework)
+                  - listitem [ref=e338]:
+                    - link "GSAP" [ref=e339] [cursor=pointer]:
+                      - /url: https://greensock.com/gsap/
+                    - text: + ScrollTrigger — scroll animations
+                - generic [ref=e340]:
+                  - heading "Project Structure" [level=2] [ref=e341]
+                  - 'link "Permalink: Project Structure" [ref=e342] [cursor=pointer]':
+                    - /url: "#project-structure"
+                    - img [ref=e343]
+                - generic [ref=e345]:
+                  - code [ref=e347]: "recruit-site/ ├── index.html ├── src/ │ ├── styles/ │ │ ├── _variables.css # CSS custom properties │ │ ├── _base.css # reset, typography, shared utils │ │ ├── _nav.css # fixed bottom pill nav + progress bar │ │ ├── _act1.css # ACT1: hero, philosophy, bridge, values │ │ ├── _sections.css # benefits, leadership, stories, positions │ │ ├── _act2.css # ACT2: topcta, hours, final, faq + footer │ │ └── main.css # imports all partials │ └── js/ │ ├── autofit.js # autoFit, refreshST, pinScene utilities │ ├── nav.js # smooth scroll + progress bar │ ├── act1.js # GSAP: hero→philosophy→bridge→values │ ├── benefits.js # GSAP: 3-card pinned section │ ├── scenes.js # GSAP: leadership, stories, positions │ ├── act2.js # GSAP: topcta→hours→final→faq │ └── main.js # entry point └── package.json"
+                  - button "Copy" [ref=e349] [cursor=pointer]:
+                    - img [ref=e350]
+                - generic [ref=e353]:
+                  - heading "Getting Started" [level=2] [ref=e354]
+                  - 'link "Permalink: Getting Started" [ref=e355] [cursor=pointer]':
+                    - /url: "#getting-started"
+                    - img [ref=e356]
+                - generic [ref=e358]:
+                  - generic [ref=e359]: npm install npm run dev
+                  - button "Copy" [ref=e361] [cursor=pointer]:
+                    - img [ref=e362]
+                - generic [ref=e365]:
+                  - heading "Build" [level=2] [ref=e366]
+                  - 'link "Permalink: Build" [ref=e367] [cursor=pointer]':
+                    - /url: "#build"
+                    - img [ref=e368]
+                - generic [ref=e370]:
+                  - generic [ref=e371]: npm run build npm run preview
+                  - button "Copy" [ref=e373] [cursor=pointer]:
+                    - img [ref=e374]
+        - generic [ref=e380]:
+          - generic [ref=e383]:
+            - heading "About" [level=2] [ref=e384]
+            - generic [ref=e385]: No description, website, or topics provided.
+            - heading "Resources" [level=3] [ref=e386]
+            - link "Readme" [ref=e388] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e389]
+              - text: Readme
+            - link "Activity" [ref=e392] [cursor=pointer]:
+              - /url: /lyeongl/recruit-site/activity
+              - img [ref=e393]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e395]
+            - link "0 stars" [ref=e397] [cursor=pointer]:
+              - /url: /lyeongl/recruit-site/stargazers
+              - img [ref=e398]
+              - strong [ref=e400]: "0"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e401]
+            - link "0 watching" [ref=e403] [cursor=pointer]:
+              - /url: /lyeongl/recruit-site/watchers
+              - img [ref=e404]
+              - strong [ref=e406]: "0"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e407]
+            - link "0 forks" [ref=e409] [cursor=pointer]:
+              - /url: /lyeongl/recruit-site/forks
+              - img [ref=e410]
+              - strong [ref=e412]: "0"
+              - text: forks
+            - link "Report repository" [ref=e414] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Flyeongl%2Frecruit-site&report=lyeongl+%28user%29
+          - generic [ref=e416]:
+            - heading "Releases 1" [level=2] [ref=e417]:
+              - link "Releases 1" [ref=e418] [cursor=pointer]:
+                - /url: /lyeongl/recruit-site/releases
+                - text: Releases
+                - generic "1" [ref=e419]
+            - link "Preview Assets Latest Apr 23, 20261 minute ago" [ref=e420] [cursor=pointer]:
+              - /url: /lyeongl/recruit-site/releases/tag/preview
+              - img [ref=e421]
+              - generic [ref=e423]:
+                - generic [ref=e424]:
+                  - generic [ref=e425]: Preview Assets
+                  - 'generic "Label: Latest" [ref=e426]': Latest
+                - generic [ref=e427]: Apr 23, 20261 minute ago
+          - generic "Loading latest packages" [ref=e430]:
+            - heading "Packages" [level=2] [ref=e431]:
+              - link "Packages" [ref=e432] [cursor=pointer]:
+                - /url: /users/lyeongl/packages?repo_name=recruit-site
+          - generic [ref=e443]:
+            - heading "Contributors 1" [level=2] [ref=e444]:
+              - link "Contributors 1" [ref=e445] [cursor=pointer]:
+                - /url: /lyeongl/recruit-site/graphs/contributors
+                - text: Contributors
+                - generic "1" [ref=e446]
+            - list [ref=e447]:
+              - listitem [ref=e448]:
+                - link "@lyeongl" [ref=e449] [cursor=pointer]:
+                  - /url: https://github.com/lyeongl
+                  - img "@lyeongl" [ref=e450]
+                - link "lyeongl 이영주" [ref=e452] [cursor=pointer]:
+                  - /url: https://github.com/lyeongl
+                  - strong [ref=e453]: lyeongl
+                  - text: 이영주
+          - generic [ref=e455]:
+            - heading "Languages" [level=2] [ref=e456]
+            - list [ref=e462]:
+              - listitem [ref=e463]:
+                - link "CSS 47.0%" [ref=e464] [cursor=pointer]:
+                  - /url: /lyeongl/recruit-site/search?l=css
+                  - img [ref=e465]
+                  - generic [ref=e467]: CSS
+                  - generic [ref=e468]: 47.0%
+              - listitem [ref=e469]:
+                - link "HTML 28.7%" [ref=e470] [cursor=pointer]:
+                  - /url: /lyeongl/recruit-site/search?l=html
+                  - img [ref=e471]
+                  - generic [ref=e473]: HTML
+                  - generic [ref=e474]: 28.7%
+              - listitem [ref=e475]:
+                - link "JavaScript 24.3%" [ref=e476] [cursor=pointer]:
+                  - /url: /lyeongl/recruit-site/search?l=javascript
+                  - img [ref=e477]
+                  - generic [ref=e479]: JavaScript
+                  - generic [ref=e480]: 24.3%
+  - contentinfo [ref=e482]:
+    - heading "Footer" [level=2] [ref=e483]
+    - generic [ref=e484]:
+      - generic [ref=e485]:
+        - link "GitHub Homepage" [ref=e486] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e487]
+        - generic [ref=e489]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e490]:
+        - heading "Footer navigation" [level=3] [ref=e491]
+        - list "Footer navigation" [ref=e492]:
+          - listitem [ref=e493]:
+            - link "Terms" [ref=e494] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e495]:
+            - link "Privacy" [ref=e496] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e497]:
+            - link "Security" [ref=e498] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e499]:
+            - link "Status" [ref=e500] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e501]:
+            - link "Community" [ref=e502] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e503]:
+            - link "Docs" [ref=e504] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e505]:
+            - link "Contact" [ref=e506] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e507]:
+            - button "Manage cookies" [ref=e509] [cursor=pointer]
+          - listitem [ref=e510]:
+            - button "Do not share my personal information" [ref=e512] [cursor=pointer]
